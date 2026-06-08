@@ -1,23 +1,6 @@
-bg_y1 += bg_speed;
-bg_y2 += bg_speed;
+y += move_speed;
 
-// Reset backgrounds
-if (bg_y1 >= room_height)
+if (y > room_height + 50)
 {
-    bg_y1 = bg_y2 - room_height;
+    instance_destroy();
 }
-
-if (bg_y2 >= room_height)
-{
-    bg_y2 = bg_y1 - room_height;
-}
-
-
-
-
-
-
-
-
-
-

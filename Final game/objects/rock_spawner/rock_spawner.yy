@@ -1,11 +1,8 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "Object3",
-  "spriteId": {
-    "name": "Sprite2",
-    "path": "sprites/Sprite2/Sprite2.yy",
-  },
+  "name": "rock_spawner",
+  "spriteId": null,
   "solid": false,
   "visible": true,
   "managed": true,
