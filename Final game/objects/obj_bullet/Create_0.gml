@@ -1,2 +1,7 @@
-speed = 10;
-direction = 270; // goes up
+speed = 12;
+direction = 90; // up
+
+
+
+
+

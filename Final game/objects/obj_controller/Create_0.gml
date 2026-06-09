@@ -1,4 +1,4 @@
-global.lives = 3;
+global.lives = 2;
 global.score = 0;
 
 
