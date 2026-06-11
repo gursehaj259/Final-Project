@@ -14,7 +14,7 @@ if (spawn_timer >= spawn_delay)
         spawn_x,
         -50,
         "Instances_1",
-        Object2
+        obj_rock2
     );
 }
 

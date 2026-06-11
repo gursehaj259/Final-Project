@@ -14,7 +14,10 @@ x = clamp(x, 0, room_width - sprite_width);
 y = clamp(y, 0, room_height - sprite_height);
 
 // Go to next room when score reaches 40
+
+
+global.score += 0.1;
 if (global.score >= 40)
 {
-    room_goto_next();
+    room_goto(Room2);
 }
