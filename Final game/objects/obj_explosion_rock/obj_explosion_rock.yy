@@ -1,8 +1,11 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "rock_spawner",
-  "spriteId": null,
+  "name": "obj_explosion_rock",
+  "spriteId": {
+    "name": "Sprite3",
+    "path": "sprites/Sprite3/Sprite3.yy",
+  },
   "solid": false,
   "visible": true,
   "managed": true,
@@ -24,6 +27,8 @@
   "eventList": [
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,},
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"obj_bullet","path":"objects/obj_bullet/obj_bullet.yy",},},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"obj_plane","path":"objects/obj_plane/obj_plane.yy",},},
   ],
   "properties": [],
   "overriddenProperties": [],

@@ -3,8 +3,8 @@
   "resourceVersion": "1.0",
   "name": "Object14",
   "spriteId": {
-    "name": "Sprite11",
-    "path": "sprites/Sprite11/Sprite11.yy",
+    "name": "spr_plane_hit",
+    "path": "sprites/spr_plane_hit/spr_plane_hit.yy",
   },
   "solid": false,
   "visible": true,

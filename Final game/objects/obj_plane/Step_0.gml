@@ -21,3 +21,11 @@ if (global.score >= 40)
 {
     room_goto(Room2);
 }
+
+shoot_delay--;
+
+if (keyboard_check_pressed(vk_space) && shoot_delay <= 0)
+{
+    instance_create_layer(x, y - 20, "Instances", obj_bullet);
+    shoot_delay = 10;
+}

@@ -1,4 +1,4 @@
-y -= speed;
+ y -= speed;
 
 if (y < -50)
 {
