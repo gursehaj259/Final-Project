@@ -21,6 +21,3 @@ if (spawn_timer >= 200) // adjust for spacing
 
 
 
-
-
-

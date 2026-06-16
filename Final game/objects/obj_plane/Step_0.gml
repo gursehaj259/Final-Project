@@ -26,6 +26,25 @@ shoot_delay--;
 
 if (keyboard_check_pressed(vk_space) && shoot_delay <= 0)
 {
+	
     instance_create_layer(x, y - 20, "Instances", obj_bullet);
     shoot_delay = 10;
+}
+if (mouse_check_button_pressed(mb_left))
+{
+audio_play_sound(bullet, 5, false);
+    var fire;
+
+    if (image_xscale > 0)
+    {
+        fire = instance_create_layer(x-375, y-225, "Instances", obj_bullet);
+        fire.direction = 0;
+    }
+    else
+    {
+        fire = instance_create_layer(x-375, y-225, "Instances", obj_bullet);
+        fire.direction = 180;
+    }
+
+    fire.speed = 8;
 }
