@@ -11,7 +11,7 @@ y = clamp(y, sprite_height/2, room_height - sprite_height/2);
 global.score += 0.1;
 
 // ROOM CHANGE
-if (global.score >= 40)
+if (global.score >= 80)
 {
     room_goto(Room2);
 }
@@ -28,7 +28,7 @@ if (keyboard_check_pressed(vk_space) && shoot_delay <= 0)
 
     shoot_delay = 10;
 }
-if (global.score >= 40)
+if (global.score >= 80)
 {
     room_goto_next();
 }
