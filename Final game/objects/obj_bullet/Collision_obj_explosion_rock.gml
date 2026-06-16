@@ -1,13 +1,11 @@
-                              
-                                            
-instance_create_layer(other.x, other.y, "Instances", obj_explosion_rock);
+    instance_create_layer(x, y, "Instances", obj_explosion_rock);
 
-other.instance_destroy(); // destroy the rock
-instance_destroy();       // destroy the bullet 
+with (other)
+{
+    instance_destroy();
+}
 
-
-
-
+instance_destroy();      
 
 
 

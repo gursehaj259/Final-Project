@@ -1,10 +1,10 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "Object14",
+  "name": "Object16",
   "spriteId": {
-    "name": "spr_plane_hit",
-    "path": "sprites/spr_plane_hit/spr_plane_hit.yy",
+    "name": "Sprite13",
+    "path": "sprites/Sprite13/Sprite13.yy",
   },
   "solid": false,
   "visible": true,
@@ -24,11 +24,7 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,},
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"obj_bullet","path":"objects/obj_bullet/obj_bullet.yy",},},
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"obj_plane","path":"objects/obj_plane/obj_plane.yy",},},
-  ],
+  "eventList": [],
   "properties": [],
   "overriddenProperties": [],
   "parent": {

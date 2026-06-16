@@ -1,23 +1,19 @@
+
 spawn_timer++;
 
 if (spawn_timer >= spawn_delay)
 {
     spawn_timer = 0;
+    spawn_delay = irandom_range(25, 60);
 
-    // random x position at top
-    var xx = irandom_range(0, room_width);
+    var xx = irandom(room_width);
 
-    instance_create_layer(xx, -50, "Instances", obj_explosion_rock);
+    var rock = instance_create_layer(xx, -50, "Instances", obj_explosion_rock);
+    rock.speed = irandom_range(6, 10);
+    rock.direction = 270;
 }
-spawn_timer += 4; // acts like movement distance
 
-if (spawn_timer >= 200) // adjust for spacing
-{
-    spawn_timer = 0;
 
-    var xx = irandom_range(0, room_width);
-    instance_create_layer(xx, -50, "Instances", obj_explosion_rock);
-}
 
 
 

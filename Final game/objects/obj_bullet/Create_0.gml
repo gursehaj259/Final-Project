@@ -1,7 +1,1 @@
-speed = 12;
-direction = 90; // up
-
-
-
-
-
+image_angle = 0;

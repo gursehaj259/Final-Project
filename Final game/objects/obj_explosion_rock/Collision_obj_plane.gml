@@ -6,7 +6,7 @@ instance_destroy();
 
 if (global.lives <= 0)
 {
- 
+
 }
 
 

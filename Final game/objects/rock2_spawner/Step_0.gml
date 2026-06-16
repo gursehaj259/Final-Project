@@ -3,26 +3,14 @@ spawn_timer++;
 if (spawn_timer >= spawn_delay)
 {
     spawn_timer = 0;
+    spawn_delay = irandom_range(25, 60);
 
-    // NEW random delay AFTER each spawn (THIS IS IMPORTANT)
-    spawn_delay = irandom_range(240, 300); 
-    // 240 = 4 seconds (at 60 FPS)
+    var xx = irandom(room_width);
 
-    var spawn_x = irandom_range(0, room_width);
-
-    instance_create_layer(
-        spawn_x,
-        -50,
-        "Instances_1",
-        obj_rock2
-    );
+    var rock = instance_create_layer(xx, -50, "Instances", obj_rock2);
+    rock.speed = irandom_range(6, 10);
+    rock.direction = 270;
 }
-
-
-
-
-
-
 
 
 
