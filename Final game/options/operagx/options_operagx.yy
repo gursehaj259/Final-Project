@@ -2,8 +2,8 @@
   "resourceType": "GMOperaGXOptions",
   "resourceVersion": "1.0",
   "name": "operagx",
-  "option_operagx_version": "1.0.0.0",
-  "option_operagx_next_version": "1.0.0.1",
+  "option_operagx_version": "1.0.0.1",
+  "option_operagx_next_version": "1.0.0.2",
   "option_operagx_game_name": "Finalgame",
   "option_operagx_interpolate_pixels": true,
   "option_operagx_scale": 0,
@@ -14,5 +14,5 @@
   "option_operagx_team_id": "42e8f699-a497-4a16-8430-379c3fc5ddab",
   "option_operagx_editUrl": "https://dev.gx.games/games/98a7e74a-d0ca-4848-9bf3-e0f19821bef2/details",
   "option_operagx_internalShareUrl": "https://gx.games/games/15pciv/finalgame/tracks/cda1b142-bee2-4084-be2f-3227bbd2105d/",
-  "option_operagx_publicShareUrl": "",
+  "option_operagx_publicShareUrl": "https://gx.games/games/15pciv/finalgame/",
 }
