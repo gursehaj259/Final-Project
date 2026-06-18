@@ -1,6 +1,4 @@
-sprite_index = spr_plane;
-global.invincible = false;
-
+//global.invincible = false;
 
 
 

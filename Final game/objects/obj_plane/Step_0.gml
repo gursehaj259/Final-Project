@@ -18,6 +18,9 @@ if (global.score >= 80)
 
 // SHOOT COOLDOWN
 shoot_delay--;
+if global.invincible > 0 {
+global.invincible--;
+}
 
 // SHOOT
 if (keyboard_check_pressed(vk_space) && shoot_delay <= 0)
@@ -32,3 +35,8 @@ if (global.score >= 80)
 {
     room_goto_next();
 }
+
+if global.lives = 0  || global.lives < 0{
+	room_restart();	
+}
+
